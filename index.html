@@ -35,6 +35,40 @@
                 </p>
             </article>
         </section>
+        <section>
+            <h2>Título de sección</h2>
+            <article>
+                <h3>Título 1</h3>
+                <img src="#" alt="Imagen1">
+                <p>
+                    Esto un párrafo del primer article de la primera section
+                </p>
+            </article>
+            <article>
+                <h3>Título 2</h3>
+                <img src="#" alt="Imagen2">
+                <p>
+                    Este es el segundo artículo de la primera section
+                </p>
+            </article>
+        </section>
       </main>
+      <aside>
+         <h3>Otras publicaciones</h3>
+        <ul>
+            <li><a href="#">Artículo relacionado 1</a></li>
+            <li><a href="#">Artículo relacionado 2</a></li>
+            <li><a href="#">Artículo relacionado 3</a></li>
+        </ul>
+      </aside>
+      <footer>
+         <p>&copy; <span id="currentYear"></span> Mi Blog. Todos los derechos reservados.</p>
+      </footer>
+       <script>
+        // Obtener el año actual
+        const currentYear = new Date().getFullYear();
+        // Insertar el año actual en el elemento con id "currentYear"
+        document.getElementById('currentYear').textContent = currentYear;
+    </script>
 </body>
 </html>
