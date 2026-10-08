@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #aa37c7;
-}
+} /* modificar después el fondo*/
 
 header, nav, main, aside, footer {
     padding: 20px;
@@ -69,4 +69,8 @@ footer {
     text-align: center;
     font-size: 0.9em;
     color: #555;
+}
+
+#titulo-header{
+    
 }
